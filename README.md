@@ -1,4 +1,4 @@
-# CCI — Conformal Confidential Inference chatbot
+# CCI — Conformal Confidential Inference 
 
 Source mirror of the chatbot deployed on `cci-gemma-vm` (Azure Confidential VM,
 AMD SEV-SNP), currently reachable at **https://20.127.95.200** (self-signed
