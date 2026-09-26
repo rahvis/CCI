@@ -4,7 +4,9 @@ Source mirror of the chatbot deployed on `cci-gemma-vm` (Azure Confidential VM,
 AMD SEV-SNP), currently reachable at **https://20.127.95.200** (self-signed
 cert — see below).
 
-[![Conformal Confidential Inference](https://img.youtube.com/vi/2J9G148tZPg/maxresdefault.jpg)](https://www.youtube.com/watch?v=2J9G148tZPg)
+<a href="https://www.youtube.com/watch?v=2J9G148tZPg" target="_blank">
+  <img src="https://img.youtube.com/vi/2J9G148tZPg/maxresdefault.jpg" alt="Conformal Confidential Inference" width="600" />
+</a>
 
 ## Layout
 
