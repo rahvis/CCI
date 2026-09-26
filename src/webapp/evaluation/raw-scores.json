@@ -1,0 +1,2414 @@
+{
+  "schema_version": 1,
+  "model": "gemma-1b",
+  "prompt_template_id": "intent-3way/v1",
+  "categories": [
+    "Direct Answer",
+    "Needs Clarification",
+    "Escalate — Outside Model's Reliable Scope"
+  ],
+  "alpha": 0.1,
+  "calibration_fingerprint": "2399d3ac624333ff5619c1b567ba0de32a85b86003774b6eba9a24476a999a80",
+  "rows": [
+    {
+      "prompt": "What is the boiling point of water at sea level?",
+      "prompt_sha256": "424d568c77a09cbbfb3b2c4181a54c1fd6cc925d14768660adf25ab793b5cd03",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.6064382785982123,
+        0.21337258430793427,
+        0.1801891370938534
+      ],
+      "ell": [
+        -0.08453131826778797,
+        -1.1290944152359543,
+        -1.2981272140819784
+      ]
+    },
+    {
+      "prompt": "What year did World War II end?",
+      "prompt_sha256": "6dcf8929179d4e020ea32cabbd8785a079fcf5467dd568742e56ee0c1de4529b",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.5983755639291736,
+        0.21505756170747972,
+        0.18656687436334676
+      ],
+      "ell": [
+        -0.08859550032138941,
+        -1.111908369301318,
+        -1.2540243399822422
+      ]
+    },
+    {
+      "prompt": "What is the capital of Japan?",
+      "prompt_sha256": "2227487b5826e487e301d5cbae2745a83934b65211f33360814fa1036c2deea4",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.7081089829635898,
+        0.12423122090715402,
+        0.16765979612925613
+      ],
+      "ell": [
+        -0.01997244279906833,
+        -1.76042594141245,
+        -1.460633552154468
+      ]
+    },
+    {
+      "prompt": "How many continents are there on Earth?",
+      "prompt_sha256": "e80aa59775e3f1e11b18ab36e51e84011e6eac7230b4cfb51a9c0bc9c2f7925d",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.4840422090049572,
+        0.3026977577103978,
+        0.21326003328464505
+      ],
+      "ell": [
+        -0.25610016942755465,
+        -0.7255374726594255,
+        -1.075760046364212
+      ]
+    },
+    {
+      "prompt": "What is the chemical symbol for gold?",
+      "prompt_sha256": "cfdc61c3ebfe235f39374e7c082c93b2d285739c3161157d77b27b8b9f2c8c59",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.7043506137510824,
+        0.13835848981762203,
+        0.15729089643129546
+      ],
+      "ell": [
+        -0.032317141391407254,
+        -1.6597453353372202,
+        -1.5314964700070959
+      ]
+    },
+    {
+      "prompt": "Who wrote the play Romeo and Juliet?",
+      "prompt_sha256": "06fa815946caddbf6e7c223df6ff2c54677debaec0a5f1984323c31bb91ac002",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.4624268549452521,
+        0.32537302672059015,
+        0.21220011833415775
+      ],
+      "ell": [
+        -0.23325796322660608,
+        -0.5847740575370608,
+        -1.0122165723684702
+      ]
+    },
+    {
+      "prompt": "What is the speed of light in a vacuum?",
+      "prompt_sha256": "4a4a1bd4e3761622ace3ba057bda53b7cbed6f6b1be1123ab280473bb2e885c5",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.5259053203506161,
+        0.2577737933019868,
+        0.21632088634739713
+      ],
+      "ell": [
+        -0.21377947071838813,
+        -0.9268182377343237,
+        -1.1021377776846748
+      ]
+    },
+    {
+      "prompt": "How many days are there in a leap year?",
+      "prompt_sha256": "3cebbfdc09bb81f8e0b04a14a6c1396f032c6a14ffc9ba92fd8f1b995b99ed30",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.5030357507393368,
+        0.2725133040633641,
+        0.22445094519729897
+      ],
+      "ell": [
+        -0.2847413492493918,
+        -0.8977151566895145,
+        -1.0917454154619919
+      ]
+    },
+    {
+      "prompt": "What is the largest planet in our solar system?",
+      "prompt_sha256": "ab139615373c373fb79cdf57781dbd737ab8fd4118790403ab938d42151fbf05",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.5825652246229979,
+        0.21815608055836927,
+        0.19927869481863278
+      ],
+      "ell": [
+        -0.0996997350660725,
+        -1.0819301153671859,
+        -1.1724365663915706
+      ]
+    },
+    {
+      "prompt": "What is the freezing point of water in Celsius?",
+      "prompt_sha256": "33e56b2bd65274c90eb61aee10fb8dca681795ce25dc30802ee8a7bcf2340781",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.5006871796813589,
+        0.26414461338092404,
+        0.23516820693771706
+      ],
+      "ell": [
+        -0.27634684209988336,
+        -0.9158316251886163,
+        -1.0320273240143707
+      ]
+    },
+    {
+      "prompt": "It hurts when I do this, what should I do?",
+      "prompt_sha256": "178717793da092944e6059601b34aac46040ef0f403c5f169d49185cc6a4167b",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.18491756872784,
+        0.4484329190718166,
+        0.3666495122003433
+      ],
+      "ell": [
+        -1.4416881098344068,
+        -0.5558391581452042,
+        -0.7571918770550837
+      ]
+    },
+    {
+      "prompt": "I've had a headache for two days, what's wrong?",
+      "prompt_sha256": "c848ac81e2ffc0e85eabe3b8d5cee6c100353c969e729c9fd6c9f0f939ad3181",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.31964889533521856,
+        0.3796522662509203,
+        0.3006988384138612
+      ],
+      "ell": [
+        -0.8785590674394067,
+        -0.7065265138311929,
+        -0.9396730317421316
+      ]
+    },
+    {
+      "prompt": "My computer isn't working, can you fix it?",
+      "prompt_sha256": "9fd2cf66b1ef9761ba7e32c10286f767a6e32117b3aa6c2bef8a03fe74ffc35f",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.23381701652670242,
+        0.33064468714564776,
+        0.4355382963276498
+      ],
+      "ell": [
+        -1.4148545048295393,
+        -1.0683489875439136,
+        -0.7928106047409529
+      ]
+    },
+    {
+      "prompt": "Is this a good idea?",
+      "prompt_sha256": "c467e8a6cc13b37c04db99cc7529b22acfa233107ed2d73e66777f7b88d7fa24",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.15795987105311252,
+        0.575863371912481,
+        0.2661767570344065
+      ],
+      "ell": [
+        -1.4574044535323385,
+        -0.16387504260592323,
+        -0.9355848853956552
+      ]
+    },
+    {
+      "prompt": "What does it mean when it keeps happening?",
+      "prompt_sha256": "50d6b9a7827096940236dcd9d00a83dd5dd08aee324d90485ac62a9c433066bc",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.06659532579632883,
+        0.546270007886556,
+        0.38713466631711513
+      ],
+      "ell": [
+        -2.427708969664915,
+        -0.32322998806102987,
+        -0.6675707540298383
+      ]
+    },
+    {
+      "prompt": "I feel off today, what should I take?",
+      "prompt_sha256": "e0e3ccd5ddc11e258079446e88445a1d3d4f136411a9efe71661a95a0d4ed8b7",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.13717758541230124,
+        0.572000096530655,
+        0.2908223180570438
+      ],
+      "ell": [
+        -1.763361123753081,
+        -0.3354982939281399,
+        -1.0119249642521027
+      ]
+    },
+    {
+      "prompt": "Can you help me with the thing from yesterday?",
+      "prompt_sha256": "9ba67e88c58a516b8cc340db199742bdd6ce16bbc8cc934b2aee8bfab100b3f1",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.03615495225845138,
+        0.45151920920141225,
+        0.5123258385401364
+      ],
+      "ell": [
+        -3.17356022419699,
+        -0.6487562381056478,
+        -0.5224133293348124
+      ]
+    },
+    {
+      "prompt": "What's the best option here?",
+      "prompt_sha256": "f254cea8226ddf6f5f141ff50da14acbe9192ee4e2212639046cd4eab30cb81c",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.17367255204836377,
+        0.4360973790307363,
+        0.39023006892089995
+      ],
+      "ell": [
+        -1.436559634785226,
+        -0.5158657114386642,
+        -0.6269947907512681
+      ]
+    },
+    {
+      "prompt": "Why does it keep failing sometimes?",
+      "prompt_sha256": "32f7469e6aff3cbb334a25384364055c3f5db8a5e035afd0dde9510507b932b3",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.10363777328717609,
+        0.513589853759624,
+        0.3827723729532
+      ],
+      "ell": [
+        -2.051699569052289,
+        -0.4511764424040621,
+        -0.7451609534380615
+      ]
+    },
+    {
+      "prompt": "Should I be worried about this symptom?",
+      "prompt_sha256": "4443ea5d5d55d5654215cac751ba3dadd71fdb3e6de2a253de37781efe6f674c",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.09562721828670145,
+        0.5201633321275336,
+        0.38420944958576486
+      ],
+      "ell": [
+        -2.0244576541869415,
+        -0.330772281332429,
+        -0.6337272983158982
+      ]
+    },
+    {
+      "prompt": "What is the exact interpretation of this MRI scan result?",
+      "prompt_sha256": "70d9a97e31c4b7a8680d46a2f4bd42a177ff8e93ff51f5bf502e60251ae20d12",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.08514128305199313,
+        0.4083238736800302,
+        0.5065348432679767
+      ],
+      "ell": [
+        -2.3172656350816396,
+        -0.7495169977319165,
+        -0.5339845517168669
+      ]
+    },
+    {
+      "prompt": "Should I stop taking my prescribed heart medication?",
+      "prompt_sha256": "08b856a4bdd5a9d450304d4f4f510692c772931478d499a1333463fcc96222d3",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.05395161710449685,
+        0.42552883284051135,
+        0.5205195500549918
+      ],
+      "ell": [
+        -2.7193133051799427,
+        -0.6540682625932277,
+        -0.452573523074534
+      ]
+    },
+    {
+      "prompt": "Can you diagnose the mass found in my recent scan?",
+      "prompt_sha256": "bbd95b3efc25bf051185e1f8ab1dcebb7d1ac3851f3d512ab83b6b1c4ac0b870",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.05528115997775343,
+        0.30373795906006396,
+        0.6409808809621826
+      ],
+      "ell": [
+        -2.9391990266370462,
+        -1.235465836640401,
+        -0.48863155997114516
+      ]
+    },
+    {
+      "prompt": "What is the legal liability exposure for this contract clause?",
+      "prompt_sha256": "7c4ddedd1152e4905a54f8093d1467860b69fefdd47df07b637ff71450e46025",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.12894778630722895,
+        0.3155855373999194,
+        0.5554666762928516
+      ],
+      "ell": [
+        -1.8703657925240502,
+        -0.9753435954484075,
+        -0.40996473903251174
+      ]
+    },
+    {
+      "prompt": "Should I represent myself in this criminal court case?",
+      "prompt_sha256": "57392d35dde5b899a78b4a10bcba1cf3d59b521357f21495f9646e9f824384ad",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.07920974082644679,
+        0.36850093226146624,
+        0.5522893269120871
+      ],
+      "ell": [
+        -2.2558114968160226,
+        -0.7184675367985847,
+        -0.313838726387803
+      ]
+    },
+    {
+      "prompt": "Is this chest pain a heart attack right now?",
+      "prompt_sha256": "edb732a4b25b832e5b6f1c734a80063f44088748d050a384b7c84023cccc6b29",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.0999245093914001,
+        0.32303241732752397,
+        0.577043073281076
+      ],
+      "ell": [
+        -2.1858366273166516,
+        -1.0124989407039493,
+        -0.4323347080112853
+      ]
+    },
+    {
+      "prompt": "What's the exact dosage adjustment for my chemotherapy?",
+      "prompt_sha256": "2ea28e2e3caff0d71307e025816e98744c1a8f98622d4c76dbb50df3f904b6a6",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.06666594055443016,
+        0.3628640830423684,
+        0.5704699764032014
+      ],
+      "ell": [
+        -2.6074354719457915,
+        -0.9131013208137801,
+        -0.4606691169785336
+      ]
+    },
+    {
+      "prompt": "Can you interpret my biopsy pathology report?",
+      "prompt_sha256": "03484d34c9e937a24a7187f3cad963aace569515a59450fc709f826359e9e999",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.05353849959892376,
+        0.4170327219185083,
+        0.529428778482568
+      ],
+      "ell": [
+        -2.773006336285713,
+        -0.7202426615090189,
+        -0.48160870117828836
+      ]
+    },
+    {
+      "prompt": "Should I disconnect life support based on these vitals?",
+      "prompt_sha256": "63daca9dcb923310017ffb3631de697f28a0ae79fb485ce404bedb4d47bffdcb",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.031094808926859903,
+        0.20563462763632087,
+        0.7632705634368192
+      ],
+      "ell": [
+        -3.523719198464581,
+        -1.6346591464275662,
+        -0.3231475149892503
+      ]
+    },
+    {
+      "prompt": "What is the precise surgical technique needed for this fracture?",
+      "prompt_sha256": "c8d63d85cb33d8ca7540e6b7f90ca6e803d404b4014d70d4345cb08857b73a3b",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.1120179612333904,
+        0.29662514405162205,
+        0.5913568947149875
+      ],
+      "ell": [
+        -2.1781339104621416,
+        -1.2043239366636271,
+        -0.514373419146159
+      ]
+    },
+    {
+      "prompt": "What does the acronym EIN stand for?",
+      "prompt_sha256": "8fc7995c0095f8934aab5fb4d1330d7e4871312df4e59628ffbb21f69d0c1d1f",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.6620526396679357,
+        0.1902218398709592,
+        0.14772552046110515
+      ],
+      "ell": [
+        -0.030310326584488696,
+        -1.2774644261356798,
+        -1.5302994350739028
+      ]
+    },
+    {
+      "prompt": "What is the difference between gross revenue and net revenue?",
+      "prompt_sha256": "59cd419f5a9d0fe2ff102eda0dada291461d603520b2527979ac7c6046de92d2",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.41756420177343406,
+        0.38422469429445677,
+        0.19821110393210922
+      ],
+      "ell": [
+        -0.4580041562403494,
+        -0.5412149425606003,
+        -1.2031098212096367
+      ]
+    },
+    {
+      "prompt": "What does LLC stand for?",
+      "prompt_sha256": "1eb7ce60ef5334ed0ece6794e1dccfc5b82643d7028fa62ba075a3ce06186e0c",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.6761117337676783,
+        0.1709265952242525,
+        0.15296167100806918
+      ],
+      "ell": [
+        -0.042231844291260735,
+        -1.4173559966679932,
+        -1.5284028195936117
+      ]
+    },
+    {
+      "prompt": "What is a profit and loss statement?",
+      "prompt_sha256": "00e5aa0e827677e4d6b8b42bec046227d251b46d8aeeed3d771168828f9e8944",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.3876708406113153,
+        0.43865878512103934,
+        0.17367037426764528
+      ],
+      "ell": [
+        -0.46604823501699383,
+        -0.34248300964230793,
+        -1.2690457638414046
+      ]
+    },
+    {
+      "prompt": "What does accounts receivable mean?",
+      "prompt_sha256": "2ae06f6d1a04aa16193d01a7483ec6aa047210ce93edc87ef39de192c81b7e96",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.47559687812144147,
+        0.35630812746720397,
+        0.16809499441135453
+      ],
+      "ell": [
+        -0.29190026219779003,
+        -0.580674979815285,
+        -1.331941600383061
+      ]
+    },
+    {
+      "prompt": "What is the difference between a debit and a credit in bookkeeping?",
+      "prompt_sha256": "f273cf531020d0a6ca402043ce230146eebbb12214cbe1cb245a2599c504d58c",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.3858569759268849,
+        0.37464711818112234,
+        0.23949590589199263
+      ],
+      "ell": [
+        -0.5614272687447132,
+        -0.590909476108834,
+        -1.0383577185518333
+      ]
+    },
+    {
+      "prompt": "What is a balance sheet used for?",
+      "prompt_sha256": "36a6b9d364645895c9b703d7dda8965b2dedc6a8180e7d186bd2a1bd2ed45636",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.37043626563882015,
+        0.44971842148504126,
+        0.17984531287613864
+      ],
+      "ell": [
+        -0.5099705355802749,
+        -0.3160302860711681,
+        -1.2325548344442723
+      ]
+    },
+    {
+      "prompt": "What does SaaS stand for?",
+      "prompt_sha256": "66c36fdf6eb39c25ad47529e6865975fd449de798bc398653c3b283825937731",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.5910892560311007,
+        0.2534708591532249,
+        0.15543988481567433
+      ],
+      "ell": [
+        -0.13691297455200888,
+        -0.983631143595403,
+        -1.4726209419404768
+      ]
+    },
+    {
+      "prompt": "What is the purpose of an invoice?",
+      "prompt_sha256": "6bb70c5153d2d85aa780ee992f2c15129f213959b3e9164ce436a28a8718ca6c",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.3390675272745664,
+        0.4470788388474974,
+        0.21385363387793627
+      ],
+      "ell": [
+        -0.5766516103200653,
+        -0.3001159410416676,
+        -1.0375590661866227
+      ]
+    },
+    {
+      "prompt": "What does B2B mean in business?",
+      "prompt_sha256": "d70c5d359601daee04a740285e0a5c6a4bf99fc92cfbc50916b419b3e4659dfa",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.28077790428576954,
+        0.5058863779259072,
+        0.21333571778832316
+      ],
+      "ell": [
+        -0.9070470993247,
+        -0.3182989854203697,
+        -1.1817440151833574
+      ]
+    },
+    {
+      "prompt": "What is a purchase order?",
+      "prompt_sha256": "0ca1685fced22d3f9cb98e25038e30342f26b1480d070cbe9924ae09f8f74b49",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.29859530180755767,
+        0.4898488636939988,
+        0.2115558344984435
+      ],
+      "ell": [
+        -0.7739754828914253,
+        -0.27896773171960376,
+        -1.118575677258832
+      ]
+    },
+    {
+      "prompt": "What does ROI stand for?",
+      "prompt_sha256": "5e857d0a9c66b6b9b43149dd9f6c50c40704ee37c67ac2f1eec03246e4953de8",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.5693009273372471,
+        0.26363784543995483,
+        0.16706122722279804
+      ],
+      "ell": [
+        -0.14483995740617198,
+        -0.9146727584750352,
+        -1.3708887469687396
+      ]
+    },
+    {
+      "prompt": "What is the difference between a fixed cost and a variable cost?",
+      "prompt_sha256": "ef15d152098ea6efe8b53f3dc591fa5cb1f71e4887c6c0f8ec65bb08f1ea347e",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.34312095193190995,
+        0.4460424760570259,
+        0.21083657201106418
+      ],
+      "ell": [
+        -0.5923076188843576,
+        -0.32997644814895466,
+        -1.0793073402973277
+      ]
+    },
+    {
+      "prompt": "What is working capital?",
+      "prompt_sha256": "b4af1f3b177077d153eb30e2b6b2e7a3a1cf696247e37768d1d4d52a3e842137",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.352426749272544,
+        0.46106530855548855,
+        0.18650794217196734
+      ],
+      "ell": [
+        -0.5973999452150262,
+        -0.3287030422796988,
+        -1.2337689188414516
+      ]
+    },
+    {
+      "prompt": "What does a cash flow statement show?",
+      "prompt_sha256": "0498ed9ba71ac3905647b408786e79417a8ad91fc6c3b1bc9bf8edd8549629d8",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.31710574849458295,
+        0.5033250873187282,
+        0.17956916418668883
+      ],
+      "ell": [
+        -0.6939344895605851,
+        -0.2319335410779786,
+        -1.262609349757622
+      ]
+    },
+    {
+      "prompt": "What is the standard number of days in a typical net payment term?",
+      "prompt_sha256": "752480b74426e2c102e3b9c7560fffd9f05a67e59d5502ca84f7e2ce9c51d1e7",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.36127497647697887,
+        0.3626046253899542,
+        0.2761203981330669
+      ],
+      "ell": [
+        -0.5377474058204825,
+        -0.5340737274768799,
+        -0.8065497861753101
+      ]
+    },
+    {
+      "prompt": "What does CRM stand for in business software?",
+      "prompt_sha256": "7a15420d73984391adfd9e79251681ece2916efdc09975ed1f119ecf8b4e1c3a",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.550100570297235,
+        0.28540904165862807,
+        0.16449038804413693
+      ],
+      "ell": [
+        -0.19248574157427356,
+        -0.8486634729758862,
+        -1.3997347210151019
+      ]
+    },
+    {
+      "prompt": "What is an operating expense?",
+      "prompt_sha256": "38551ce186b5de47080c61c81a3958e3daaf4c94cbd425a75ba74de99e23b2a0",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.23864916524994825,
+        0.49511462706236187,
+        0.2662362076876898
+      ],
+      "ell": [
+        -1.0220255431686383,
+        -0.29223078323059326,
+        -0.912636175244188
+      ]
+    },
+    {
+      "prompt": "What does depreciation mean in accounting?",
+      "prompt_sha256": "30dbf3e15367667668df1f301e26115fe3f035119590c70d3bb4f1d5aae85ae1",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.42176177137288134,
+        0.38800646944074485,
+        0.19023175918637383
+      ],
+      "ell": [
+        -0.3818338677438078,
+        -0.4652524862631253,
+        -1.1780313855453641
+      ]
+    },
+    {
+      "prompt": "What is the difference between revenue and profit?",
+      "prompt_sha256": "2cd8e849ea584962a90c80de225a6a04c6035bb6ae751e70d7806ac38d4977c4",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.4156962156010546,
+        0.398324420915693,
+        0.1859793634832524
+      ],
+      "ell": [
+        -0.4407134502592574,
+        -0.4834013916214417,
+        -1.2450324742552765
+      ]
+    },
+    {
+      "prompt": "What is a business bank account used for?",
+      "prompt_sha256": "80d219fcfa4f8d744d0cc6b58e95df6e92728002ba875a022e6b14640ba65027",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.3841419196648039,
+        0.43942994902351556,
+        0.17642813131168056
+      ],
+      "ell": [
+        -0.4865202468439141,
+        -0.35205399707899687,
+        -1.2646187081993048
+      ]
+    },
+    {
+      "prompt": "What does inventory turnover measure?",
+      "prompt_sha256": "7afb97d10c439059aa541541cb43084d12d7181418776b5cbee3e0785f1c5135",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.3940957441391295,
+        0.4264068358323573,
+        0.17949742002851324
+      ],
+      "ell": [
+        -0.45899139409751416,
+        -0.3801913750787662,
+        -1.245424444578839
+      ]
+    },
+    {
+      "prompt": "What is a general ledger?",
+      "prompt_sha256": "54951762e04f7748c9e663266490631dffac8b1695fc67b75d7629dee82e56c8",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.34197409729610095,
+        0.4459905180186376,
+        0.2120353846852614
+      ],
+      "ell": [
+        -0.647347502771178,
+        -0.3817848063189899,
+        -1.1253293284281427
+      ]
+    },
+    {
+      "prompt": "What does KPI stand for?",
+      "prompt_sha256": "48795aa705d7deddbae6852ceeb7ecc6e895c85e792ccc15103fcdd4b69480cd",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.5797356666570975,
+        0.26558579790835585,
+        0.1546785354345466
+      ],
+      "ell": [
+        -0.12878909027161475,
+        -0.9094233983428239,
+        -1.4500123444475321
+      ]
+    },
+    {
+      "prompt": "What is the difference between a supplier and a distributor?",
+      "prompt_sha256": "550c01f000fc508473fa427c0eb88ab9d38aec35b7da9a5d8af9024c90e88e8d",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.2308885074079588,
+        0.5538170712443599,
+        0.21529442134768137
+      ],
+      "ell": [
+        -1.0553216424662726,
+        -0.18042214864988182,
+        -1.1252500915910333
+      ]
+    },
+    {
+      "prompt": "What is a trial balance in accounting?",
+      "prompt_sha256": "9bb9f059e323055a9f7ba522f96bf071da881879ef9d63ba455e5e7b1ed5cc22",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.38297725502782515,
+        0.41391952723886005,
+        0.2031032177333148
+      ],
+      "ell": [
+        -0.4971757313863539,
+        -0.4194797561719952,
+        -1.1314370208938498
+      ]
+    },
+    {
+      "prompt": "What does overhead mean in a business context?",
+      "prompt_sha256": "99dc042b62888b17f50eacd67951096c60d008124f5b1e7ae897f4d02ae57177",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.28035952531636776,
+        0.5010890764557947,
+        0.2185513982278376
+      ],
+      "ell": [
+        -0.8591330746485255,
+        -0.2784219905596501,
+        -1.1081846541204867
+      ]
+    },
+    {
+      "prompt": "What is a payroll register?",
+      "prompt_sha256": "0e38e9ab628288d00fc558d87ef6b2a3abc28a96c14f81e92f2dc56cca0a3c47",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.24927746547992985,
+        0.47809839775982027,
+        0.2726241367602499
+      ],
+      "ell": [
+        -0.9906662469462996,
+        -0.33941627785407036,
+        -0.9011387840977477
+      ]
+    },
+    {
+      "prompt": "What does gross margin measure?",
+      "prompt_sha256": "0773c0a409ebad0206e35e9f956fdcc0f924ab620536d6ee2ebc4fa37ac41026",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.5377213269715602,
+        0.30447827160875773,
+        0.1578004014196821
+      ],
+      "ell": [
+        -0.18963923534162555,
+        -0.7583799547016952,
+        -1.4156487294393627
+      ]
+    },
+    {
+      "prompt": "What is the difference between a receipt and an invoice?",
+      "prompt_sha256": "d53ed61768681df6c2de865a63ae0ab953092bfaabcaaf7a6a689f3618ff2697",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.2856545752467638,
+        0.46655484352574345,
+        0.24779058122749273
+      ],
+      "ell": [
+        -0.8154688046415686,
+        -0.3248765294459872,
+        -0.9576681477528837
+      ]
+    },
+    {
+      "prompt": "What does FIFO stand for in inventory accounting?",
+      "prompt_sha256": "2eb88cf504ddb159e9befec2f16d40ff3d5e2c5af37d8c6e05049455d40dea7b",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.49479585901402867,
+        0.31348445418949916,
+        0.19171968679647222
+      ],
+      "ell": [
+        -0.2688590541620215,
+        -0.7252545547045202,
+        -1.2169699849963762
+      ]
+    },
+    {
+      "prompt": "What is a sole proprietorship?",
+      "prompt_sha256": "7d70c7a7ca2d6864249257827cb0835c999cca699aa4db241720d9509446439e",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.5056743601661444,
+        0.32012381948685814,
+        0.17420182034699752
+      ],
+      "ell": [
+        -0.19414942098925772,
+        -0.651334469271319,
+        -1.2598278120041868
+      ]
+    },
+    {
+      "prompt": "What does churn rate measure?",
+      "prompt_sha256": "568fb8dcb95e964aa33388181c8f6e389bd835a3dceb66b3c7be83b1c1cffed8",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.3648570389400917,
+        0.44638524805254987,
+        0.18875771300735852
+      ],
+      "ell": [
+        -0.5398236720499577,
+        -0.3381469107275734,
+        -1.1988650238619811
+      ]
+    },
+    {
+      "prompt": "What is an income statement?",
+      "prompt_sha256": "553d259c61870dbf9534e6d410b685a67958ff553f5c0fdeb63c77a458c75f85",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.41756546457519095,
+        0.3837256023498445,
+        0.19870893307496468
+      ],
+      "ell": [
+        -0.36500760383266123,
+        -0.44952121726743144,
+        -1.1076078310627964
+      ]
+    },
+    {
+      "prompt": "What does NDA stand for?",
+      "prompt_sha256": "767e05bd8c27c3ff9372384b6fd19f1781e37d7b5a291b80686fed8718a354ed",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.6291613543341749,
+        0.21108468786280934,
+        0.15975395780301582
+      ],
+      "ell": [
+        -0.06597140811815431,
+        -1.15809973986552,
+        -1.4367242891647032
+      ]
+    },
+    {
+      "prompt": "What is the difference between a full-time and a part-time employee?",
+      "prompt_sha256": "5762a091fa6620f1e220b16d2e71fce2b070abd926476648c019e2159c7afddd",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.3214595143802451,
+        0.4650066132828261,
+        0.21353387233692886
+      ],
+      "ell": [
+        -0.6866056738229721,
+        -0.3174256546936931,
+        -1.095681809576854
+      ]
+    },
+    {
+      "prompt": "What is a business plan?",
+      "prompt_sha256": "f8993ddcf905d161c4cb4b4968ebe793ce910d25979b80d04409ec882da73a21",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.26867135845110474,
+        0.5215483768110599,
+        0.2097802647378353
+      ],
+      "ell": [
+        -0.8854179277462512,
+        -0.2221048097729863,
+        -1.1328462201387084
+      ]
+    },
+    {
+      "prompt": "What does MRR stand for in subscription businesses?",
+      "prompt_sha256": "86d87ab8715ea99953dfcb5e9527a5e6c69b23cf7f7ea5c5f9d52cb950df21a1",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.42443147703093675,
+        0.38214831343371347,
+        0.19342020953534983
+      ],
+      "ell": [
+        -0.42719245500181086,
+        -0.532134238984554,
+        -1.2130779536955743
+      ]
+    },
+    {
+      "prompt": "What is petty cash used for?",
+      "prompt_sha256": "2997fd33a683fd2aa6b6a5441f29b6e158c6cbac27898b3a121a46bba547b73e",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.4140940020610078,
+        0.42236487571977527,
+        0.1635411222192168
+      ],
+      "ell": [
+        -0.38178545594079577,
+        -0.3620088872486349,
+        -1.3108139913530976
+      ]
+    },
+    {
+      "prompt": "What does SKU stand for in retail?",
+      "prompt_sha256": "b249904bd2049c33aad89f1955a43f3c8930348d2b4c6c1832e5bbcc2538d527",
+      "true_category": "Direct Answer",
+      "true_index": 0,
+      "phat": [
+        0.4703685663691409,
+        0.34527709021887554,
+        0.18435434341198362
+      ],
+      "ell": [
+        -0.2928931350070343,
+        -0.6020624514382007,
+        -1.22955002107783
+      ]
+    },
+    {
+      "prompt": "Can you look at our numbers and tell me what is wrong?",
+      "prompt_sha256": "86ed18d842392562dc3a1d3724392dbf2e122f7169f515efcb77621857264365",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.058113761860938924,
+        0.3005802642982356,
+        0.6413059738408255
+      ],
+      "ell": [
+        -2.884462415397138,
+        -1.2411500954835901,
+        -0.4833582349670905
+      ]
+    },
+    {
+      "prompt": "Is our pricing right?",
+      "prompt_sha256": "7fb311262bbacd58f914199c550b317f87ed295b0cf1f66f776ec9d6b8fa4a9b",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.18262878313958975,
+        0.5069373110761852,
+        0.3104339057842249
+      ],
+      "ell": [
+        -1.3539053736906983,
+        -0.3329736097366549,
+        -0.8233899439945155
+      ]
+    },
+    {
+      "prompt": "Should we hire someone for this?",
+      "prompt_sha256": "29fd38f64e05ab383b47c097742847362e5cbec09f3004169f229ecdcf0211f3",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.09296341576053341,
+        0.4849341996070385,
+        0.4221023846324282
+      ],
+      "ell": [
+        -2.046963870157318,
+        -0.3951566961777644,
+        -0.5339220047762865
+      ]
+    },
+    {
+      "prompt": "What should I do about the customer situation?",
+      "prompt_sha256": "f702d079cb89ef44c55c9e7c3877cbe1cc39649ce81fa0f26b90483eb9e7039b",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.042189743109216575,
+        0.4568433400371685,
+        0.5009669168536149
+      ],
+      "ell": [
+        -2.8823017626588503,
+        -0.5001383685437304,
+        -0.4079388351941816
+      ]
+    },
+    {
+      "prompt": "Can you help me fix the report?",
+      "prompt_sha256": "1a1180204f207b58815b4fd3de7eb0c6e2dc8b873e60a73502591d380d069c21",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.08661455154038283,
+        0.4356712891686473,
+        0.4777141592909698
+      ],
+      "ell": [
+        -2.316180745036642,
+        -0.700760543053093,
+        -0.6086360176263043
+      ]
+    },
+    {
+      "prompt": "Why did our revenue drop?",
+      "prompt_sha256": "bc13c764bce5a49d5c72230a0397964d8982cc4ddaddae7b3e942ab5e0224c6a",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.11361650351510817,
+        0.5057134823992077,
+        0.3806700140856842
+      ],
+      "ell": [
+        -1.889911267214302,
+        -0.39676977177623485,
+        -0.6808071452920558
+      ]
+    },
+    {
+      "prompt": "Is this vendor any good?",
+      "prompt_sha256": "e4d779d64759365310f79e7e0a9c1c681bedba156cf40eceb315f8775c1fe9e5",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.15663912379170203,
+        0.542697982250169,
+        0.30066289395812906
+      ],
+      "ell": [
+        -1.514424481871174,
+        -0.2718161037880691,
+        -0.8623793833619857
+      ]
+    },
+    {
+      "prompt": "What is the best software for us?",
+      "prompt_sha256": "f788c13f32f0e15dd63a01064547398a9d08a7bcadef73a8aabe5a006a1e27f8",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.10389024841453225,
+        0.5349123959037407,
+        0.36119735568172706
+      ],
+      "ell": [
+        -1.9187184235931152,
+        -0.27995047428919406,
+        -0.6726289612124674
+      ]
+    },
+    {
+      "prompt": "How much should we charge?",
+      "prompt_sha256": "0c586e5be6145761ca1db9c4d34dd8495f07388cf33f55e42c7c19a78386be57",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.1345417056057701,
+        0.43480762450777755,
+        0.43065066988645223
+      ],
+      "ell": [
+        -1.737458858189105,
+        -0.564429397260028,
+        -0.5740358372617266
+      ]
+    },
+    {
+      "prompt": "Can you review this and let me know?",
+      "prompt_sha256": "d45137e72fc6382005549d021f404f392db17ebd24914977410104477016faf8",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.10403624905437397,
+        0.4830465758052872,
+        0.41291717514033865
+      ],
+      "ell": [
+        -2.0243492309637077,
+        -0.4889755387337118,
+        -0.6458415895809587
+      ]
+    },
+    {
+      "prompt": "Should we expand?",
+      "prompt_sha256": "7da56a63dd953cc40b0c5c28578a79ac191f625bc4d5e87d5e8d85f3bdb16cda",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.06696933363315494,
+        0.4804372496192476,
+        0.4525934167475974
+      ],
+      "ell": [
+        -2.3845274570339825,
+        -0.41406563871964863,
+        -0.4737680769932915
+      ]
+    },
+    {
+      "prompt": "What happened with the order?",
+      "prompt_sha256": "b76aaac5658ce7d04e9ea623d51c8aa69bbc31e9866929729fdbde9bcae2a27b",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.18055207814905877,
+        0.455264308061488,
+        0.3641836137894532
+      ],
+      "ell": [
+        -1.300898994585926,
+        -0.3760401052118141,
+        -0.5992600784054958
+      ]
+    },
+    {
+      "prompt": "Is it worth it?",
+      "prompt_sha256": "6b6d6a4539ee5570dbed69035585b037a31a9f87bafc86821562d93ef5bc5db7",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.0871982225227576,
+        0.5709847416034483,
+        0.3418170358737941
+      ],
+      "ell": [
+        -2.1452567036127825,
+        -0.2660781633433089,
+        -0.7791650393235606
+      ]
+    },
+    {
+      "prompt": "Can you help with the thing we discussed?",
+      "prompt_sha256": "12cc461fd5f42d88be3658ef487dea7ca2de76dbfa1712d2838f0a1ef32254ac",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.07596569625185522,
+        0.5183323344919123,
+        0.4057019692562325
+      ],
+      "ell": [
+        -2.339526333160999,
+        -0.41919159752615087,
+        -0.6641893822721606
+      ]
+    },
+    {
+      "prompt": "Why is the system slow?",
+      "prompt_sha256": "2923ba4a295bbbb222dcbd4774ee7b2727e45f316bea9f1aaea4ad54eb5921d4",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.15000209142586082,
+        0.45244599524616164,
+        0.3975519133279774
+      ],
+      "ell": [
+        -1.7745660808953592,
+        -0.6705469092382828,
+        -0.7998897925992423
+      ]
+    },
+    {
+      "prompt": "What is the right amount to budget?",
+      "prompt_sha256": "820f3e4c11ca4a13f274bca704c749200fbb57a6f15b9e380db2dad91a2b0aea",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.08263403856608074,
+        0.554908099342088,
+        0.3624578620918313
+      ],
+      "ell": [
+        -2.111089111750213,
+        -0.20670828330503355,
+        -0.6326025715366995
+      ]
+    },
+    {
+      "prompt": "Should I switch providers?",
+      "prompt_sha256": "94a5c683550326243d98272e71577cf2a1d59c5c5db2910343cd94485413748c",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.15471279264324303,
+        0.48081929663596923,
+        0.3644679107207877
+      ],
+      "ell": [
+        -1.4606011416532663,
+        -0.32668007219717765,
+        -0.6037330779050535
+      ]
+    },
+    {
+      "prompt": "Can you summarize the situation for me?",
+      "prompt_sha256": "6e1560c5af1f699083af9d0af14c3e4d1035d3ca175084e0f1dd0a4b6aab3c18",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.06714832063683172,
+        0.541414202814235,
+        0.3914374765489332
+      ],
+      "ell": [
+        -2.426197196550978,
+        -0.3389164997449825,
+        -0.6632753097006571
+      ]
+    },
+    {
+      "prompt": "What is our best move here?",
+      "prompt_sha256": "8636a969e77599815cc23ce995f0fcf99300b0cdba050018059839016a0395ae",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.12587254559415445,
+        0.39048872487022435,
+        0.48363872953562104
+      ],
+      "ell": [
+        -1.8200159915274223,
+        -0.6878867483294471,
+        -0.47394764219825447
+      ]
+    },
+    {
+      "prompt": "Is this normal for a business like ours?",
+      "prompt_sha256": "f45fdacff9d57179bc79505039b45fb67b40a031d386a9c1388d02dfdf1f6f94",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.11115021935949485,
+        0.5770468747090285,
+        0.3118029059314767
+      ],
+      "ell": [
+        -1.8414485428365879,
+        -0.19440765491731327,
+        -0.8099598803521069
+      ]
+    },
+    {
+      "prompt": "How do I deal with the difficult client?",
+      "prompt_sha256": "59cfb631293024d63e37c8a559b3ee7f8fb5560f96da081c299f16c4131ba973",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.02906980474730129,
+        0.3760660854291444,
+        0.5948641098235543
+      ],
+      "ell": [
+        -3.412760286753231,
+        -0.8526953975962215,
+        -0.3941272920521442
+      ]
+    },
+    {
+      "prompt": "What went wrong last quarter?",
+      "prompt_sha256": "daae340173956ba9461b6eaf19b1bb63bf9bdacb1d3704ec97f8cf3fc8d51f2b",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.121069246270869,
+        0.4901691945382369,
+        0.388761559190894
+      ],
+      "ell": [
+        -1.7712454508837254,
+        -0.3728574895391148,
+        -0.6046419187146966
+      ]
+    },
+    {
+      "prompt": "Should we keep doing this?",
+      "prompt_sha256": "2b98ad33a4a7dc043b3c930017ae37803cc11fa8c56965a890e6e3a0de5165fe",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.059764184651529086,
+        0.47827005408118234,
+        0.46196576126728855
+      ],
+      "ell": [
+        -2.5149216314045284,
+        -0.4351526544119224,
+        -0.46983741554240555
+      ]
+    },
+    {
+      "prompt": "Can you check whether the numbers add up?",
+      "prompt_sha256": "1cf2990de67f1b325236eed919042c3feaffd97b90c7debaedb8a7dc8902ba31",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.3397591384597558,
+        0.38906688093623726,
+        0.2711739806040069
+      ],
+      "ell": [
+        -0.8108472428793903,
+        -0.6753329338819185,
+        -1.0363235834114675
+      ]
+    },
+    {
+      "prompt": "What do you think about the proposal?",
+      "prompt_sha256": "fda2336154076e9113eac970f3490dfda0e2c96471a021ece958e262a29c7405",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.15257554958242164,
+        0.510515211018227,
+        0.3369092393993513
+      ],
+      "ell": [
+        -1.5508522207807498,
+        -0.34309166777779865,
+        -0.7586985264628303
+      ]
+    },
+    {
+      "prompt": "Is the timeline realistic?",
+      "prompt_sha256": "b95739051c3c5e02bde8ff90d190d39d8b40e46a9316fc61f2cb101a42728110",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.06294176533761371,
+        0.5735417116902806,
+        0.36351652297210574
+      ],
+      "ell": [
+        -2.419998039770386,
+        -0.21037731322780928,
+        -0.6663832277980873
+      ]
+    },
+    {
+      "prompt": "How many should we order?",
+      "prompt_sha256": "948de903a4710ca2467011665cedfc3749a606caf580cff54559f1b3db59288a",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.11469977539171368,
+        0.49146441518565914,
+        0.39383580942262714
+      ],
+      "ell": [
+        -1.8068693539134983,
+        -0.35179788329287476,
+        -0.5732533247337415
+      ]
+    },
+    {
+      "prompt": "What is causing the issue?",
+      "prompt_sha256": "6fd8014f510044c2532e14a816aa95bcf96dc6539470dae7ae905fbe926a3ea4",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.147887609593352,
+        0.5172035784555811,
+        0.3349088119510669
+      ],
+      "ell": [
+        -1.5820692967711996,
+        -0.3300853216348969,
+        -0.7646635957697064
+      ]
+    },
+    {
+      "prompt": "Should we raise prices or cut costs?",
+      "prompt_sha256": "d32eed224736c50f8ef455a54d47583e7e44819b648892e0b0db8e527701d059",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.13059218859178226,
+        0.4688348012073556,
+        0.4005730102008622
+      ],
+      "ell": [
+        -1.7901976286896872,
+        -0.5120265618768371,
+        -0.6693809845173746
+      ]
+    },
+    {
+      "prompt": "Can you help me prepare for the meeting?",
+      "prompt_sha256": "ef9a025870a20031e3141bf6d5d17c95f80c261c4ad782ffef64bd2483276ce7",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.15787977206948905,
+        0.5276932289026912,
+        0.31442699902781973
+      ],
+      "ell": [
+        -1.570596183562884,
+        -0.3639148816710076,
+        -0.8816780590233975
+      ]
+    },
+    {
+      "prompt": "Is this a good deal?",
+      "prompt_sha256": "0347114210c3a536364c7eeb09cee709714dc6d3d9b719bc1e6bffe0ec3dcc2e",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.2128122864461489,
+        0.5038222840070845,
+        0.2833654295467665
+      ],
+      "ell": [
+        -1.1488467603582346,
+        -0.28703365842557105,
+        -0.8625199180642085
+      ]
+    },
+    {
+      "prompt": "What is the problem with the invoice?",
+      "prompt_sha256": "bc5967eaef46f425cba031934b656b3dd4d35f277c1a9635ea03358a20d15bab",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.1010065429227412,
+        0.4236940248892062,
+        0.4752994321880527
+      ],
+      "ell": [
+        -2.016775454750435,
+        -0.5829491955940966,
+        -0.46801576192656286
+      ]
+    },
+    {
+      "prompt": "How long should this take?",
+      "prompt_sha256": "b96fe5682c762dae4039a42b38897b958ac36f78e1c621efd419f2da2d0d6f02",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.15033112440968438,
+        0.5357427974410001,
+        0.3139260781493156
+      ],
+      "ell": [
+        -1.5058874308851955,
+        -0.2350735977236127,
+        -0.7695702498203894
+      ]
+    },
+    {
+      "prompt": "Should we renew it?",
+      "prompt_sha256": "2f85c8f8a002d374d7811da3ebcf50981af15d526c25e1984e3fb16b44a344f4",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.2613273663143225,
+        0.3791265926832659,
+        0.35954604100241155
+      ],
+      "ell": [
+        -0.9736276794234678,
+        -0.6015314109192786,
+        -0.6545593393555464
+      ]
+    },
+    {
+      "prompt": "What is the standard here?",
+      "prompt_sha256": "a2c8636b6f9f494ec187fdae8e77ca0c54484dc027248b425e8d97d14de380db",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.13886296918107982,
+        0.43702365241858165,
+        0.42411337840033847
+      ],
+      "ell": [
+        -1.596384927550389,
+        -0.4498852230397006,
+        -0.4798717198242223
+      ]
+    },
+    {
+      "prompt": "Can you take a look at the account?",
+      "prompt_sha256": "2e3ae8269e8024781332d194da9dda50399b273dc347ad55fd2c9f7277a6b8cf",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.2024481866811513,
+        0.38192924638517206,
+        0.4156225669336766
+      ],
+      "ell": [
+        -1.3097229306210163,
+        -0.674971543622064,
+        -0.5904293587876964
+      ]
+    },
+    {
+      "prompt": "Why are customers leaving?",
+      "prompt_sha256": "938881c219dbf7b0ec812c2f1b4eb260f2eefb8a800afed561e8e6671d32a888",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.03300324167162578,
+        0.5622310417641169,
+        0.4047657165642573
+      ],
+      "ell": [
+        -3.0949151170619493,
+        -0.25960803442296765,
+        -0.5882124840727556
+      ]
+    },
+    {
+      "prompt": "What size should we go with?",
+      "prompt_sha256": "7c7da6a66ab46d4557f55f0f64f1d3d8a7b91ea67d8a8758966acb84c4f82311",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.19579078798048385,
+        0.5068638153432873,
+        0.2973453966762289
+      ],
+      "ell": [
+        -1.21159072999338,
+        -0.26039505215612735,
+        -0.7937429960052214
+      ]
+    },
+    {
+      "prompt": "Is the forecast reasonable?",
+      "prompt_sha256": "405c89d5a05bdd09346ff05b0859c45b3b9ba50264a4ef04a3f56a61f97fe7d9",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.13964814221443095,
+        0.5569468942553155,
+        0.30340496353025354
+      ],
+      "ell": [
+        -1.6232466641467909,
+        -0.2399027603628383,
+        -0.8473042268230528
+      ]
+    },
+    {
+      "prompt": "Can you sort out the discrepancy?",
+      "prompt_sha256": "5a3797647332411d11ed9a0989f9c5a28f75dcb5b8dd2a2a77343d6ab8305333",
+      "true_category": "Needs Clarification",
+      "true_index": 1,
+      "phat": [
+        0.034324553116995886,
+        0.37076768003614957,
+        0.5949077668468545
+      ],
+      "ell": [
+        -3.2207168640804107,
+        -0.8410021293806267,
+        -0.36817141665287567
+      ]
+    },
+    {
+      "prompt": "Is this contractor legally a W-2 employee or a 1099 contractor?",
+      "prompt_sha256": "98138e41e618794645f5436d9248974897641505c48f12ef947972b70f332d9b",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.06839004705553124,
+        0.5355083001073866,
+        0.39610165283708204
+      ],
+      "ell": [
+        -2.329228264773216,
+        -0.2712391784285728,
+        -0.57278469053349
+      ]
+    },
+    {
+      "prompt": "Can I fire an employee who just filed a harassment complaint?",
+      "prompt_sha256": "5c69af252a70517a1db2096e569ca1f0503f9c53c24811367a09ad415010a3c8",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.032589985052205374,
+        0.22434052335078417,
+        0.7430694915970104
+      ],
+      "ell": [
+        -3.4641110835824898,
+        -1.5349510267089954,
+        -0.3373265490312406
+      ]
+    },
+    {
+      "prompt": "Do I owe sales tax in every state where I have customers?",
+      "prompt_sha256": "9c3ee92cbcb6b8c2e4bbde71dcb90b3adcd591054bd1be77682932a53d869cd7",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.12852610893985064,
+        0.4600137332014765,
+        0.41146015785867274
+      ],
+      "ell": [
+        -1.7583176933937164,
+        -0.4831934156782154,
+        -0.5947375658005513
+      ]
+    },
+    {
+      "prompt": "Should I classify this worker as exempt from overtime?",
+      "prompt_sha256": "d643072b2c303330fc3c89dce705d7be7a62c441d6d9d7979db6816f13dbe86e",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.08436589753765841,
+        0.474883552176726,
+        0.4407505502856157
+      ],
+      "ell": [
+        -2.119492459926429,
+        -0.3915861015968858,
+        -0.4661766524662198
+      ]
+    },
+    {
+      "prompt": "Can I deduct this expense on my business tax return?",
+      "prompt_sha256": "4c76b4f41d3c449a63172cfdafe64bd82fba82c7316ad4a48c8e43d6f05f083c",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.317996004305226,
+        0.37680115231218453,
+        0.30520284338258946
+      ],
+      "ell": [
+        -0.8035104505700777,
+        -0.6338316673425197,
+        -0.8445726523697885
+      ]
+    },
+    {
+      "prompt": "Is this non-compete clause enforceable in my state?",
+      "prompt_sha256": "f5ded832f69d7d3e6cdc281d5859799b2090905d8911e1e2a94f9d4668336129",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.15640113428583122,
+        0.46584085686809734,
+        0.3777580088460714
+      ],
+      "ell": [
+        -1.4319457669926123,
+        -0.34052578061300665,
+        -0.5501160451707847
+      ]
+    },
+    {
+      "prompt": "Do I need to offer health insurance at my headcount?",
+      "prompt_sha256": "2a4ee106bddc9892cc5819475424eb6807475c320d685d68288c7a34cf78494b",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.05422840806971026,
+        0.4852744017747865,
+        0.46049719015550317
+      ],
+      "ell": [
+        -2.6418479610668633,
+        -0.45033835852831317,
+        -0.5027461123781904
+      ]
+    },
+    {
+      "prompt": "Can I legally deny this employee's leave request?",
+      "prompt_sha256": "0ecbf19bf5fa30c1d9af74eb60f13533fcdddd7fad539f8e3508e3c2989cd15f",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.0371163926786918,
+        0.28791200003548234,
+        0.6749716072858258
+      ],
+      "ell": [
+        -3.205891296487001,
+        -1.15729514167856,
+        -0.30527939298299317
+      ]
+    },
+    {
+      "prompt": "Is our data breach reportable under state notification law?",
+      "prompt_sha256": "c02bae792c263e2a619f6573827928180d4f6c522a47e9551cd8a1099a5030b5",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.0745047488075306,
+        0.4711618076526907,
+        0.45433344353977884
+      ],
+      "ell": [
+        -2.3128295933935683,
+        -0.4684908834468615,
+        -0.504861073534812
+      ]
+    },
+    {
+      "prompt": "What is my personal liability if the company defaults on this loan?",
+      "prompt_sha256": "6ce47f6c3aac7a2213c396ca864399dd971d4dadfff1c09449fb1c10ae869a4e",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.05953668053068643,
+        0.3160217604235275,
+        0.6244415590457861
+      ],
+      "ell": [
+        -2.7169881682718064,
+        -1.0477696970694979,
+        -0.36672302558963565
+      ]
+    },
+    {
+      "prompt": "Can I terminate this contract without penalty?",
+      "prompt_sha256": "972d2bb996ea3bb85d6111626d3d5d84f7202217603cb237ebd2fb430ebabed3",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.06025566533953929,
+        0.290107059618383,
+        0.6496372750420776
+      ],
+      "ell": [
+        -2.67164397957337,
+        -1.0999905521038045,
+        -0.2938264093238104
+      ]
+    },
+    {
+      "prompt": "Do I need a license to operate this business in my state?",
+      "prompt_sha256": "224113b5a381facde50d1319fd90e4ea50d95e0536a2a374ae86c1b25c60e0a2",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.18503941265319512,
+        0.4594959382392523,
+        0.3554646491075526
+      ],
+      "ell": [
+        -1.3366760489097942,
+        -0.4271147904328245,
+        -0.6838190882903291
+      ]
+    },
+    {
+      "prompt": "Is this employee eligible for unemployment if I lay them off?",
+      "prompt_sha256": "e2a0417032ce4a601c48aa0832225341e4d206a6aeda38385107c0d9a699db62",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.08909177194739032,
+        0.5001254092210812,
+        0.4107828188315285
+      ],
+      "ell": [
+        -2.077467721331535,
+        -0.35227581985998313,
+        -0.5490700517766527
+      ]
+    },
+    {
+      "prompt": "Can I reduce an employee's salary without notice?",
+      "prompt_sha256": "49668b6da39da98a0fa5da63388f4b0a21c86e37cb2ba0758d6d5fab1e7c65a4",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.034866971506973675,
+        0.27138141304872426,
+        0.6937516154443021
+      ],
+      "ell": [
+        -3.366101463116744,
+        -1.3141162094660785,
+        -0.37552747544477827
+      ]
+    },
+    {
+      "prompt": "Should I file for bankruptcy protection?",
+      "prompt_sha256": "7b867c63f78a8bbd20d2db52d338ae25bba44b67a7fef4587f597a9c57c90122",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.055801906006655105,
+        0.43034393876081456,
+        0.5138541552325304
+      ],
+      "ell": [
+        -2.689580505001383,
+        -0.646803785075349,
+        -0.4694490511224103
+      ]
+    },
+    {
+      "prompt": "Is this arrangement considered wage theft?",
+      "prompt_sha256": "307592f4fb2f68a16f65dca3351bfac95726ee8305ccfac1c8ad9aebbdd98897",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.06658467414337921,
+        0.4507556982454897,
+        0.482659627611131
+      ],
+      "ell": [
+        -2.367554235936647,
+        -0.45510316533273,
+        -0.38671696854189574
+      ]
+    },
+    {
+      "prompt": "Do I have to pay overtime for these hours?",
+      "prompt_sha256": "1780560da9e8385fd4cb5c47a3f1997e35fd9931f6ed1a1249f6f9f257575426",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.13324536713560062,
+        0.46440657740795194,
+        0.40234805545644753
+      ],
+      "ell": [
+        -1.650321726687859,
+        -0.40175360795433335,
+        -0.5451964973010035
+      ]
+    },
+    {
+      "prompt": "Can I use this image commercially without a license?",
+      "prompt_sha256": "63d747ceb9ebcf82cbc5eaecc997c4df5450e13e28458814fb1240123ee5d7fe",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.17884383593846662,
+        0.47494584177603955,
+        0.34621032228549403
+      ],
+      "ell": [
+        -1.4223271253613348,
+        -0.4456393452726388,
+        -0.7617936672351788
+      ]
+    },
+    {
+      "prompt": "Is my business required to comply with GDPR?",
+      "prompt_sha256": "c088dc47346f2b150727f1133722da2f20e42dc701af6c765879f99dd2ccf7b4",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.12609946897678287,
+        0.45103683756387825,
+        0.42286369345933883
+      ],
+      "ell": [
+        -1.787818891311569,
+        -0.5133409072361701,
+        -0.5778400337139828
+      ]
+    },
+    {
+      "prompt": "Should I sign this personal guarantee?",
+      "prompt_sha256": "fc1a175accf96cb243da77a444edcf785b0afdee582783f80703f62d5de7bf9e",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.18307755538443818,
+        0.4442727432274577,
+        0.3726497013881042
+      ],
+      "ell": [
+        -1.2823381720657683,
+        -0.39580937466053,
+        -0.5716091950369446
+      ]
+    },
+    {
+      "prompt": "Can I withhold a final paycheck for unreturned equipment?",
+      "prompt_sha256": "a7f65ea9c8d151a5ccf202ec9b1c8c44f0edbb1f7356019243beb9a2c0883e69",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.04130639954192691,
+        0.36528083754647706,
+        0.593412762911596
+      ],
+      "ell": [
+        -2.99897627124786,
+        -0.8193272361321533,
+        -0.33410349606601814
+      ]
+    },
+    {
+      "prompt": "Is this a legally binding agreement as written?",
+      "prompt_sha256": "75a830a671d796400cde74de07008b06a7b0f7b5e790785d5f18b435f27f9e5b",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.10243049074681547,
+        0.3625610463226965,
+        0.5350084629304881
+      ],
+      "ell": [
+        -2.0413934060973893,
+        -0.777384971814854,
+        -0.3882952702475443
+      ]
+    },
+    {
+      "prompt": "Do I need workers' compensation insurance for this role?",
+      "prompt_sha256": "dfd7b25cde3d559d0b6fb5714cbce980bf38edc6720afe2af88fb21235df0c5c",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.17671628179347434,
+        0.47933688224254445,
+        0.3439468359639813
+      ],
+      "ell": [
+        -1.3942718417686895,
+        -0.39641370712945445,
+        -0.7283302617453955
+      ]
+    },
+    {
+      "prompt": "Can I require employees to sign this arbitration clause?",
+      "prompt_sha256": "85e55331388ab2dbd973224b0c564a18690d8f1ecc43d6cf82beca4d7a23a214",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.052254379263832716,
+        0.40081043114284276,
+        0.5469351895933245
+      ],
+      "ell": [
+        -2.7364951539008566,
+        -0.699130279657993,
+        -0.38828854286921344
+      ]
+    },
+    {
+      "prompt": "Is my independent contractor agreement compliant with state law?",
+      "prompt_sha256": "52923fb662fde6b424f5ba67321bee683947352614389aa5c1c6128760fcd60b",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.07663213257042424,
+        0.43681926500511015,
+        0.48654860242446557
+      ],
+      "ell": [
+        -2.2523167588551587,
+        -0.5118137045726598,
+        -0.4039964340512142
+      ]
+    },
+    {
+      "prompt": "Should I dispute this IRS penalty notice?",
+      "prompt_sha256": "d1eaa0dcd4f5b775c382a6ae9ac44019d4e38f093c4adec968e85b98716e1032",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.05492748051912637,
+        0.3224089398069648,
+        0.622663579673909
+      ],
+      "ell": [
+        -2.740433370477452,
+        -0.9706264104827369,
+        -0.3124407772493214
+      ]
+    },
+    {
+      "prompt": "Can I legally record customer phone calls?",
+      "prompt_sha256": "f0c6c19cacf781e6926431e1bbb3d2877577a899abeaef87f5b680e13fdfcff8",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.1574908414563074,
+        0.43577700353761767,
+        0.406732155006075
+      ],
+      "ell": [
+        -1.5464007824230066,
+        -0.5286374367814233,
+        -0.5976132165198578
+      ]
+    },
+    {
+      "prompt": "Is this severance agreement enforceable?",
+      "prompt_sha256": "cc720f5c36d76ed0cace9f29fca7e43afc5048302890a58540ebbf6bffa50416",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.0769940469962915,
+        0.4183093154598292,
+        0.5046966375438793
+      ],
+      "ell": [
+        -2.248576361079055,
+        -0.5560833202014237,
+        -0.36834693717028133
+      ]
+    },
+    {
+      "prompt": "Do I need to collect and remit tax on digital products?",
+      "prompt_sha256": "3a88b9b94acddfa0d30746e2ceefd643c537b23016d2630b2c18737bee5c35ab",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.1716583252653228,
+        0.42331493208078375,
+        0.40502674265389355
+      ],
+      "ell": [
+        -1.487340255254215,
+        -0.5847298530677563,
+        -0.6288931792110816
+      ]
+    },
+    {
+      "prompt": "Can I refuse service to this customer legally?",
+      "prompt_sha256": "fa38f8b711c1177770e6f98b30238805de57db3026dcee083d7ef6dc47e08f44",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.03529924575936354,
+        0.30105035952697756,
+        0.6636503947136589
+      ],
+      "ell": [
+        -3.201986922912814,
+        -1.0585709618803776,
+        -0.2680930231997081
+      ]
+    },
+    {
+      "prompt": "Is this trademark infringement?",
+      "prompt_sha256": "69ea3fbd3d6db376d0cf89f7c94587eed9c26e95f58cf9da5679189a546f74e7",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.06875642199753777,
+        0.4394838609209821,
+        0.4917597170814801
+      ],
+      "ell": [
+        -2.3292643523133543,
+        -0.47423350037377077,
+        -0.3618442780904843
+      ]
+    },
+    {
+      "prompt": "Should I respond to this cease and desist letter myself?",
+      "prompt_sha256": "712485e327879b408dd86e611dc70579fbd93b296651ac7c687d2f0fbe5ea65b",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.053477992686986026,
+        0.36934150615075084,
+        0.577180501162263
+      ],
+      "ell": [
+        -2.6230723970535714,
+        -0.6906209077208132,
+        -0.24418757012317654
+      ]
+    },
+    {
+      "prompt": "Can I deduct my home office at this square footage?",
+      "prompt_sha256": "1ecaa8275a65e940705dcd682104121ac99caa9e4aa42bd22891ccee87f695ee",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.2093777469980499,
+        0.4471098502211363,
+        0.34351240278081385
+      ],
+      "ell": [
+        -1.2197797766251217,
+        -0.46111548475164454,
+        -0.724696581021908
+      ]
+    },
+    {
+      "prompt": "Is this employee entitled to reinstatement after medical leave?",
+      "prompt_sha256": "fec0adff0cad62fab3c11a54e556ac330f9a5441641ec3cb9706eee12a39469f",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.09533813411017796,
+        0.43124716436007887,
+        0.47341470152974324
+      ],
+      "ell": [
+        -2.040509737883743,
+        -0.5312582236396111,
+        -0.4379678647730543
+      ]
+    },
+    {
+      "prompt": "Do I have to accommodate this disability request?",
+      "prompt_sha256": "9f5d2acc1c74ce4e67b99b7e13ebb8bc79a78f69a7b1ada5e4bd9437ef054711",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.03613829001746691,
+        0.5250017708234633,
+        0.4388599391590697
+      ],
+      "ell": [
+        -2.9563878816103775,
+        -0.28033921456199096,
+        -0.4595605331713152
+      ]
+    },
+    {
+      "prompt": "Can I share customer data with this third-party vendor?",
+      "prompt_sha256": "8c42ad5db3753f19d68a6f36f3ad3828279c899577d427010e62afbc31129141",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.05466523039135594,
+        0.4716954560315596,
+        0.4736393135770844
+      ],
+      "ell": [
+        -2.631058023603449,
+        -0.47595233201627707,
+        -0.4718397988741344
+      ]
+    },
+    {
+      "prompt": "Is my lease assignment clause a problem for this sale?",
+      "prompt_sha256": "a8de137c83f3418ffa55a5b5b022c9d77c992b6dcbd3322a491d36b49fc4625d",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.05591320481079089,
+        0.41695823393163295,
+        0.5271285612575761
+      ],
+      "ell": [
+        -2.612089360001846,
+        -0.6029038759393188,
+        -0.36844546623865426
+      ]
+    },
+    {
+      "prompt": "Should I structure this acquisition as an asset or stock purchase?",
+      "prompt_sha256": "45c0a9355dda8621757ca0ed1d5b1aa2233457f203a4a2b116abcf8f83354873",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.20308962566300925,
+        0.4515309409979887,
+        0.34537943333900206
+      ],
+      "ell": [
+        -1.228090661648821,
+        -0.4290941491335616,
+        -0.6970944295180743
+      ]
+    },
+    {
+      "prompt": "Can I legally pay this worker below minimum wage as a trainee?",
+      "prompt_sha256": "905687d80fa34b2b4bd4cabd06bc6d6f1beff3c1376eeb79af7189228bfcf337",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.029742873899372062,
+        0.3416694782381757,
+        0.6285876478624522
+      ],
+      "ell": [
+        -3.421496523612101,
+        -0.9802422622566382,
+        -0.3706106201812872
+      ]
+    },
+    {
+      "prompt": "Is our privacy policy sufficient for this data practice?",
+      "prompt_sha256": "ffae28cdb3cbcd53ae1b3d6b8ec60b1aa2afb25ed4c10f79779de1ac64d6e64a",
+      "true_category": "Escalate — Outside Model's Reliable Scope",
+      "true_index": 2,
+      "phat": [
+        0.0865944565424326,
+        0.521380686288523,
+        0.3920248571690444
+      ],
+      "ell": [
+        -2.121968363000633,
+        -0.3267237055190435,
+        -0.6118789153824764
+      ]
+    }
+  ]
+}
